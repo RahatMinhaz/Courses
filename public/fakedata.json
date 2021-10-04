@@ -1,0 +1,82 @@
+[
+    {
+       "id":1,
+       "name":"Spoken English Course",
+       "price":1000,
+       "duration":2,
+       "instructor":"Ayesha Parveen",
+       "level":"Anyone can join of all ages",
+       "phone":"+880 1611478954",
+       "img":"https://www.chancellorbd.com/wp-content/uploads/2019/12/SPOKEN-ENGLISH-001-1024x548.jpg"
+    },
+    {
+       "id":2,
+       "name":"Freanch Language Course",
+       "price":2500,
+       "duration":3,
+       "instructor":"Saleem Ahmed",
+       "level":"For people who are aiming for Education in France",
+       "phone":"+880 1456345674",
+       "img":"https://images.squarespace-cdn.com/content/v1/5a9850b95417fc1f5c48bde0/1520277898777-WRZXA9KB9YKTFUQZ5E50/French+Language+Course+in+Dhaka?format=1000w"
+    },
+    {
+       "id":3,
+       "name":"Intermidiate English Course",
+       "price":2500,
+       "duration":2,
+       "instructor":"Zahir Abbas",
+       "level":"Have to have basic knowledge on English",
+       "phone":"+880 1945354667",
+       "img":"https://prepeng.com/wp-content/uploads/2020/08/Intermediate-English-1-512x288-2.jpg"
+    },
+    {
+       "id":4,
+       "name":"German Language Course",
+       "price":3000,
+       "duration":3,
+       "instructor":"Tushar Shah",
+       "level":"For novice people",
+       "phone":"+880 1834546564",
+       "img":"https://static.clickbd.com/global/classified/item_img/2462909_0_original.jpg"
+    },
+    {
+       "id":5,
+       "name":"Learn Arabic",
+       "price":1500,
+       "duration":2,
+       "instructor":"Salena Jahan",
+       "level":"For everyone",
+       "phone":"+880 1546675435",
+       "img":"https://images.squarespace-cdn.com/content/v1/5a9850b95417fc1f5c48bde0/1520230769380-8PO83OS6MBJWF96DG93P/Quranic+Arabic+Language+In+Dhaka.jpg?format=1000w"
+    },
+    {
+       "id":6,
+       "name":"Learn Spanish Language",
+       "price":4000,
+       "duration":4,
+       "instructor":"Faizul Karim",
+       "level":"For college students",
+       "phone":"+880 1745355468",
+       "img":"https://thespanishgroup.org/wp-content/uploads/2020/07/Spanish-Language.jpg"
+    },
+    {
+       "id":7,
+       "name":"Intermidiate German Language",
+       "price":5000,
+       "duration":4,
+       "instructor":"Yunus Uddin",
+       "level":"Have basic knowledge on German language",
+       "phone":"+880 1376786785",
+       "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVTAU9j5GyZD54jv4So605S0ZDeJ_qZ2q2niYKmuWkauVdCGFIElKZH0T6EGELMkco40&usqp=CAU"
+    },
+    {
+       "id":8,
+       "name":"Learn Italian Language",
+       "price":3500,
+       "duration":3,
+       "instructor":"Nishi Sarwar",
+       "level":"For all ages",
+       "phone":"+880 1745353454",
+       "img":"http://img.scoop.it/ULZYP0zLY4aWBWGUoefLIDl72eJkfbmt4t8yenImKBXEejxNn4ZJNZ2ss5Ku7Cxt"
+    }
+ ]

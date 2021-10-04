@@ -1,0 +1,33 @@
+import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Footer from '../Footer/Footer';
+import Phone from '../Phone/Phone';
+import './Contact.css';
+
+const Contact = () => {
+    const [numbers, setNumbers] = useState([])
+    useEffect(() => {
+        fetch('./fakedata.json')
+        .then (res => res.json())
+        .then (data => setNumbers(data));
+    },[])
+    return (
+        <div>
+            {/* Contact Numbers */}
+            <div className="row">
+                    {
+                        numbers.map((number) => (<div className = "col-lg-4 p-5"><div className = "info-box">
+                        <Phone key = {number.id}
+                            number={number}></Phone>
+                            </div></div>))
+                    }
+                </div>
+                <h2>Emergency Number</h2>
+                <h4 className = "pb-5">02 897651</h4>
+        <Footer></Footer>
+        </div>
+    );
+};
+
+export default Contact;
