@@ -16,7 +16,7 @@ const Home = () => {
         <div className = "container">
             <h1 className = "pb-5">Welcome Language Festival!</h1>
             <div className="services">
-                {/* COurses */}
+                {/* Courses */}
                 <div className="row">
                     {
                         subjects.map((subject) => (<div className = "col-md-6"><div className="crs">
