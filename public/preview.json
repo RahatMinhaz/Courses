@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "name":"Spoken English Course",
+       "price":1000,
+       "duration":2,
+       "instructor":"Ayesha Parveen",
+       "level":"Anyone can join of all ages",
+       "phone":"+880 1611478954",
+       "adv":"Extra time for slow learners",
+       "pic":"https://blog.coursify.me/wp-content/uploads/2021/01/creating-online-courses-coursifyme.jpg",
+       "img":"https://www.chancellorbd.com/wp-content/uploads/2019/12/SPOKEN-ENGLISH-001-1024x548.jpg"
+    },
+    {
+       "id":2,
+       "name":"Freanch Language Course",
+       "price":2500,
+       "duration":3,
+       "instructor":"Saleem Ahmed",
+       "level":"For people who are aiming for Education in France",
+       "phone":"+880 1456345674",
+       "adv":"Tips and tricks to excel in any languages",
+       "pic":"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201807/online_courses.jpeg?_k4pOSdOEUNDnGIjpSfNCr.mJdcX4WFP",
+       "img":"https://images.squarespace-cdn.com/content/v1/5a9850b95417fc1f5c48bde0/1520277898777-WRZXA9KB9YKTFUQZ5E50/French+Language+Course+in+Dhaka?format=1000w"
+    },
+    {
+       "id":3,
+       "name":"Intermidiate English Course",
+       "price":2500,
+       "duration":2,
+       "instructor":"Zahir Abbas",
+       "level":"Have to have basic knowledge on English",
+       "phone":"+880 1945354667",
+       "adv":"Good training so you can study abroad without having a worry of learning their native languages",
+       "pic":"https://previews.123rf.com/images/ontsunan/ontsunan1812/ontsunan181200044/118386299-online-education-training-course-tutorials-e-learning-smart-knowledge-cartoon-miniature-illustration.jpg",
+       "img":"https://prepeng.com/wp-content/uploads/2020/08/Intermediate-English-1-512x288-2.jpg"
+    },
+    {
+       "id":4,
+       "name":"German Language Course",
+       "price":3000,
+       "duration":3,
+       "instructor":"Tushar Shah",
+       "level":"For novice people",
+       "phone":"+880 1834546564",
+       "adv":"Support even after end of the course",
+       "pic":"https://www.eleapsoftware.com/wp-content/uploads/2020/04/effective-virtual-trainings-1568x979.jpg",
+       "img":"https://static.clickbd.com/global/classified/item_img/2462909_0_original.jpg"
+    }
+ ]

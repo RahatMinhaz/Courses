@@ -13,11 +13,10 @@ const Subjects = () => {
         <div>
             <div className = "container">
             <div className="services">
-                <h2>Our Services</h2>
+                <h2 className = "pb-5">Our Services</h2>
                 <div className="row">
                     {
                         subjects.map((subject) => (<div className = "col-lg-6"><div className="crs">
-                            <div className="course-image"><img className="w-75 pb-4" src={subject.img} alt="" /></div>
                             <Subject key={subject.id}
                                 subject={subject}></Subject>
                             </div></div>))

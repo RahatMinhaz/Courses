@@ -17,7 +17,7 @@ const Contact = () => {
             {/* Contact Numbers */}
             <div className="row">
                     {
-                        numbers.map((number) => (<div className = "col-lg-4 p-5"><div className = "info-box">
+                        numbers.map((number) => (<div className = "col-lg-4 p-5"><div className = "contact-box">
                         <Phone key = {number.id}
                             number={number}></Phone>
                             </div></div>))

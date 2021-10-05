@@ -24,7 +24,6 @@ const Navigation = () => {
                 <NavLink activeStyle = {{fontweight: "bold", color: "red"}} to="/contact" className="items">
                   <li>Contact us</li>
                 </NavLink>
-                <NavLink to = "*"></NavLink>
               </ul>
             </nav>
           </div>

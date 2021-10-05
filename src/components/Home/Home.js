@@ -7,20 +7,20 @@ import './Home.css';
 const Home = () => {
     const [subjects, setSubjects] = useState([])
     useEffect(() => {
-        fetch('./fakedata.json')
+        fetch('./preview.json')
         .then (res => res.json())
         .then (data => setSubjects(data));
     },[])
     return (
         <div>
         <div className = "container">
-            <h1 className = "pb-5">Welcome Language Festival!</h1>
+            <h1 className = "pb-5">Welcome to <span className = "text-success">Language</span> Festival!</h1>
+            <h3 className = "pb-4">Learn varities of languages from your home, in your own confort!</h3>
             <div className="services">
                 {/* Courses */}
                 <div className="row">
                     {
-                        subjects.map((subject) => (<div className = "col-md-6"><div className="crs">
-                            <div className="course-image"><img className="w-75 pb-4" src={subject.img} alt="" /></div>
+                        subjects.map((subject) => (<div className = "col-md-6"><div className="info-box">
                             <Subject key={subject.id}
                                 subject={subject}></Subject>
                             </div></div>))
