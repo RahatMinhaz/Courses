@@ -2,12 +2,11 @@
   margin: 5px;
   padding: 5px;
   background-color: rgb(46, 46, 46);
-  /* border-radius: 5px; */
   color: rgb(155, 155, 155);
   font-size: 30px;
 }
 .icon:hover {
-  background-color: rgb(250, 25, 25);
+  background-color: rgb(170, 57, 57);
 }
 .footer-menu {
   list-style: none;
@@ -16,7 +15,7 @@
   cursor: pointer;
 }
 .footer-menu:hover {
-  color: red;
+  color: rgb(214, 70, 70);
 }
 .footer-input {
   padding: 8px;
