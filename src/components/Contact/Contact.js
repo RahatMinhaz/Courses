@@ -15,6 +15,7 @@ const Contact = () => {
     return (
         <div>
             {/* Contact Numbers */}
+            <div className="container">
             <div className="row">
                     {
                         numbers.map((number) => (<div className = "col-lg-4 p-5"><div className = "contact-box">
@@ -23,6 +24,7 @@ const Contact = () => {
                             </div></div>))
                     }
                 </div>
+            </div>
                 <h2>Emergency Number</h2>
                 <h4 className = "pb-5">02 897651</h4>
         <Footer></Footer>
