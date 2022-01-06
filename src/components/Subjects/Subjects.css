@@ -4,3 +4,7 @@
   padding: 10px;
   height: 900px;
 }
+.crs:hover {
+  transition: 0.6s;
+  background-color: rgba(236, 225, 211, 0.856);
+}

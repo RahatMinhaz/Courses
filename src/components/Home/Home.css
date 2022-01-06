@@ -7,3 +7,7 @@
   padding: 10px;
   height: 750px;
 }
+.info-box:hover {
+  transition: 0.6s;
+  background-color: burlywood;
+}

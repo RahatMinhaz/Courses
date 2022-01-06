@@ -1,10 +1,11 @@
 import React from 'react';
+import './Subject.css';
 
 const Subject = (props) => {
     const { name,price,duration,instructor,level,img} = props.subject;
     return (
         <div>
-            <img className="w-75 pb-4 pt-5" src={img} alt="" />
+            <img className="w-75 pb-4 pt-5 image" src={img} alt="" />
             <h1>{name}</h1>
             <h3>By {instructor}</h3>
             <h4>Course Fee: {price} tk</h4>
